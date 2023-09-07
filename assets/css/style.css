@@ -1,7 +1,6 @@
 /*Importação de links externos*/
 @import url('https://fonts.cdnfonts.com/css/tt-norms-pro');
 
-
 /*Reset CSS*/
 * {
     padding: 0;
@@ -11,13 +10,16 @@
 
 /*Estilização de navbar e centralização*/
 
+
 .header {
     height: 99.5vh;
+    width: 100vw;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     background: #fff url(/assets/img/bg-image.png) no-repeat top center fixed;
     background-size: cover;
+    flex-wrap: wrap;
 }
 
 
@@ -28,7 +30,6 @@
 }
 
 .top-navbar {
-    border: 1px solid white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,4 +82,67 @@
 
 .name {
     margin-right: 0.75em;
+}
+
+.section-container {
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    height: 80vh
+}
+
+.section-container-itens {
+    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    justify-content: flex-start;
+    width: 50em;
+    height: 50%;
+    margin-top: 5em;
+}
+
+.section-container-itens>.textoProcura {
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    font-family: "TT Norms Pro"
+}
+
+.pesquisaEndereco {
+    border: 1px solid blue;
+    width: 60%;
+}
+
+.inputArea {
+    border: 3px solid yellow;
+    display: flex;
+    align-items: center;
+    font-family: "TT Norms Pro";
+    background-color: white;
+    width: 25em;
+    height: 3.8em;
+    border-radius: 2em;
+    padding: 0 20px;
+    color: rgb(118, 118, 118);
+    font-weight: 500;
+}
+.svgSubmit > button {
+    background-color: rgb(235, 23, 0) !important;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+}
+
+.svgSubmit {
+    display: flex;
+    justify-content: flex-end;
 }
