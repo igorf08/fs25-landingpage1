@@ -18,18 +18,18 @@
 
 
 .svg-itens {
-    height: 100%;
     width: 100%;
     display: flex;
+
 }
 
 .top-navbar {
-    border: 1px solid blue;
     display: flex;
     justify-content: space-between;
-    margin-top: 1em;
+    align-items: center;
+    margin-top: 0.2em;
     min-width: 50em;
-    height: 6.2%;
+    height: 10%;
     min-height: 6.2%;
     max-height: 10%;
 }
@@ -43,6 +43,8 @@
 }
 
 .nav-buttons {
+    border: 1px solid blueviolet;
+    height: 100%;
     display: flex;
     justify-content: flex-end;
     gap: 6%;
