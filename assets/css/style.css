@@ -42,7 +42,6 @@
 
 
 .doordash-svg {
-    justify-content: start;
     display: flex;
     align-items: center;
     margin-left: 0.2em;
@@ -72,6 +71,10 @@
     width: 4.5em;
     background-color: rgb(235, 23, 0);
     color: white;
+    transition: 0.5s all;
+}
+.nav-buttons .red:hover {
+    background-color: rgb(201, 26, 7);
 }
 
 .nav-buttons .white {
@@ -85,64 +88,104 @@
 }
 
 .section-container {
-    border: 1px solid blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1em;
-    width: 100%;
-    height: 80vh
+    margin-top: 10em;
+    flex-wrap: wrap;
 }
 
 .section-container-itens {
     border: 1px solid blue;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     align-items: center;
-    gap: 1.5em;
     justify-content: flex-start;
-    width: 50em;
-    height: 50%;
-    margin-top: 5em;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 100vw;
+    height: 50vh
 }
 
-.section-container-itens>.textoProcura {
+.textoProcura {
+    font-family: "TT Norms Pro";
+    font-size: 1.6em;
     color: white;
-    font-weight: bold;
-    font-size: 1.6rem;
-    font-family: "TT Norms Pro"
 }
 
-.pesquisaEndereco {
-    border: 1px solid blue;
-    width: 60%;
-}
-
-.inputArea {
-    border: 3px solid yellow;
+.inputForm {
+    height: 3em;
+    width: 28em;
     display: flex;
     align-items: center;
-    font-family: "TT Norms Pro";
-    background-color: white;
-    width: 25em;
-    height: 3.8em;
-    border-radius: 2em;
-    padding: 0 20px;
-    color: rgb(118, 118, 118);
-    font-weight: 500;
-}
-.svgSubmit > button {
-    background-color: rgb(235, 23, 0) !important;
-    color: white;
-    width: 40px;
-    height: 40px;
-    border: none;
-    border-radius: 50%;
+    justify-content: center;
+    margin-left: 2.9em;
 }
 
-.svgSubmit {
+.inputFormText {
+    width: 30em;
+    border-radius: 2em;
+    height: 4em;
+    padding: 0 3em;
+    border: none;
+}
+
+
+.inputFormText::placeholder {
+    font-family: "TT Norms Pro";
+    font-weight: 500;
+    font-size: 1.15em;
+}
+.inputFormText:active {
+    outline: 2px solid #309CDD;
+}
+
+
+.inputFormText {
+    color: black;
+    font-family: "TT Norms Pro";
+}
+
+.svgUser{
+    position: relative;
+    top: 5%;
+    right: 85%
+}
+
+
+ 
+.svgSubmit button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    right: 5em;
+    color: white;
+    background-color: red;
+    border-radius: 3em;
+    border: none;
+    width: 36px;
+    height: 36px;
+}
+
+
+
+.signAddress{
     display: flex;
     justify-content: flex-end;
+    padding-right: 0.8em;
+    align-items: center;
+    border: none;
+    box-shadow: transparent 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.2) 0px 2px 8px;
+    border-radius: 5em;
+    width: 15%;
+    height: 10%;
+    background-color: white;;
+    font-size: 0.9em;
+    font-family: "TT Norms Pro";
+    font-weight: 600;
+}
+
+.svgChar {
+    position: relative;
+    bottom: 15%;
+    right: 6.3%;
 }
