@@ -1,38 +1,52 @@
+/*Reset CSS*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/*Estilização de navbar e centralização*/
+
 .header {
-    border: 1px solid blue;
-    height: 10vh;
+    height: 99.5vh;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
+    background: #fff url(/assets/img/bg-image.png) no-repeat top center fixed;
+    background-size: cover;
 }
 
 
 .top-navbar {
-    width: 50em;;
-    height: 80%;
-    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    width: 50em;
+    height: 6.2%;
 }
 
 .top-navbar-itens {
     display: flex;
     height: 100%;
-    border: 1px solid yellow;
-    justify-content: space-between;
     align-items: center;
 }
 
 .doordash-svg {
+    justify-content: start;
     display: flex;
     align-items: center;
-    gap: 8px;
+    margin-left: 0.1em;
 }
 
-.svg-itens svg{
-    fill: blue;
+.nav-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+    margin-right: 2em;
+    width: 15vw;
+
+}
+
+.name {
+    margin-right: 0.75em;
 }
