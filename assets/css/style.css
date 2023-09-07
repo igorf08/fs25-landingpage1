@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    border: 1px solid blue;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.top-navbar {
+    width: 50em;;
+    height: 80%;
+    border: 1px solid red;
+}
+
+.top-navbar-itens {
+    display: flex;
+    height: 100%;
+    border: 1px solid yellow;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.doordash-svg {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.svg-itens svg{
+    fill: blue;
+}
