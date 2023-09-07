@@ -17,19 +17,23 @@
 }
 
 
+.svg-itens {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
 .top-navbar {
+    border: 1px solid blue;
     display: flex;
     justify-content: space-between;
     margin-top: 1em;
-    width: 50em;
+    min-width: 50em;
     height: 6.2%;
+    min-height: 6.2%;
+    max-height: 10%;
 }
 
-.top-navbar-itens {
-    display: flex;
-    height: 100%;
-    align-items: center;
-}
 
 .doordash-svg {
     justify-content: start;
@@ -41,10 +45,12 @@
 .nav-buttons {
     display: flex;
     justify-content: flex-end;
-    gap: 5%;
+    gap: 6%;
     margin-right: 2em;
-    width: 15vw;
+}
 
+.nav-buttons button {
+    border: none;
 }
 
 .name {
