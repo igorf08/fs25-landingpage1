@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 /*Estilização de navbar e centralização*/
@@ -38,6 +39,7 @@
     height: 10%;
     min-height: 6.2%;
     max-height: 10%;
+    
 }
 
 
@@ -54,6 +56,7 @@
     justify-content: flex-end;
     gap: 5%;
     margin-right: 2.5em;
+    
 }
 
 .signinSignup-button {
@@ -93,7 +96,6 @@
 }
 
 .section-container-itens {
-    border: 1px solid blue;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -188,4 +190,41 @@
     position: relative;
     bottom: 15%;
     right: 6.3%;
+}
+
+/*Estilização e padronização de informações sobre entrega e detalhes (main)*/
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 10%;
+    align-items: center;
+    border: 1px solid red;
+    width: 100vw;
+    height: 80vh;
+}
+
+.main-itens {
+    font-family: 'TT Norms Pro';
+    width: 10em;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.9em;
+    border: 1px solid red;
+    width: 16.5em;
+    height: 20em;
+}
+
+.card1 > h3 {
+    font-size: 2em;
+}
+
+.card1 > p {
+    font-size: 110%;
 }
