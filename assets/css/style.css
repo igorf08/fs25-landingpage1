@@ -320,4 +320,24 @@
 .localRestaurants-text p {
     text-align: left;
     line-height: 1.2em;;
+    font-weight: 400;
+    margin-bottom: 5%;
 }
+
+.button-localRestaurants button{
+    border: none;
+    background-color: rgb(235, 23, 0);
+    color: white;
+    width: 35%;
+    height: 2.6rem;
+    border-radius: 2em;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0 0.5em;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.button-localRestaurants button:hover {
+    background-color: rgb(201, 26, 7);
+}   
