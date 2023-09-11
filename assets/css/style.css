@@ -387,3 +387,32 @@
 .dashDelivery-btn button:hover {
     background-color: rgb(201, 26, 7);
 }
+
+/*Criação de section groceries*/
+
+.groceries-bg-colorLayer {
+    background-color: rgba(248, 247, 216, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.groceries-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/assets/img/grocery_desktop.avif);
+    border: 1px solid red;
+    color: white;
+}
+
+.groceries-container h3, p, h4 { 
+    z-index: 999;
+}
