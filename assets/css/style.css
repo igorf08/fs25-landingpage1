@@ -1,4 +1,5 @@
 /*Importação de links externos*/
+
 @import url('https://fonts.cdnfonts.com/css/tt-norms-pro');
 
 /*Reset CSS*/
@@ -6,11 +7,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+    font-family: 'TT Norms Pro', sans-serif, Helvetica;
 }
 
 /*Estilização de navbar e centralização*/
-
 
 .header {
     height: 99.5vh;
@@ -27,7 +27,7 @@
 .svg-itens {
     width: 100%;
     display: flex;
-
+    
 }
 
 .top-navbar {
@@ -202,12 +202,13 @@
 
 .main-itens {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 80vw;
     height: 100%;
     font-family: 'TT Norms Pro';
 }
+
 
 .card1{
     display: flex;
@@ -216,12 +217,12 @@
     align-items: center;
     justify-content: flex-start;
     gap: 0.9em;
-    width: 16.5em;
+    width: 17em;
     height: 25em;
 }
 
 .card1 > h3 {
-    font-size: 2em;
+    font-size: 2.1em;
 }
 
 .card1 > p {
@@ -284,4 +285,39 @@
     outline: none;
     text-decoration: none;
     text-align: center;
+}
+
+/*Criação de seção de restaurantes locais*/
+
+.img-localRestaurants img {
+    object-fit: cover;
+}   
+
+.container-localRestaurants {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.localRestaurants-text {
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    gap:  1em;
+}
+
+.localRestaurants-text h4 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.localRestaurants-text h5 {
+    font-size: 1.5em;
+}
+
+.localRestaurants-text p {
+    text-align: left;
+    line-height: 1.2em;;
 }
