@@ -198,6 +198,7 @@
     padding: 0 10%;
     width: 98.7vw;
     height: 80vh;
+    margin-bottom: 5em;
 }
 
 .main-itens {
@@ -291,14 +292,18 @@
 
 .img-localRestaurants img {
     object-fit: cover;
+    height: 85vh;
+    width: 50vw;
+    margin-right: 5em;
 }   
 
 .container-localRestaurants {
+    border: 1px solid red;
     width: 100vw;
-    height: 80vh;
+    height: 75vh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .localRestaurants-text {
@@ -340,4 +345,13 @@
 
 .button-localRestaurants button:hover {
     background-color: rgb(201, 26, 7);
-}   
+}
+
+/*Criação e estilização de section de delivery*/
+
+.container-dashDelivery {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(254, 241, 238);
+}
