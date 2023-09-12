@@ -18,7 +18,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    background: #fff url(/assets/img/bg-image.png) no-repeat top center fixed;
+    background: #fff url(/fs25-landingpage1/assets/img/bg-image.png) no-repeat top center fixed;
     background-size: cover;
     flex-wrap: wrap;
 }
@@ -173,7 +173,7 @@
 .signAddress{
     display: flex;
     justify-content: flex-end;
-    padding-right: 0.8em;
+    padding-right: 0.4em;
     align-items: center;
     border: none;
     box-shadow: transparent 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.2) 0px 2px 8px;
@@ -184,12 +184,13 @@
     font-size: 0.9em;
     font-family: "TT Norms Pro";
     font-weight: 600;
+    cursor: pointer;
 }
 
 .svgChar {
     position: relative;
-    bottom: 15%;
-    right: 6.3%;
+    bottom: 15.5%;
+    right: 6.4%;
 }
 
 /*Estilização e padronização de informações sobre entrega e detalhes (main)*/
@@ -292,7 +293,7 @@
 
 .img-localRestaurants img {
     object-fit: cover;
-    height: 85vh;
+    height: 80vh;
     width: 50vw;
     margin-right: 5em;
 }   
@@ -332,7 +333,7 @@
     border: none;
     background-color: rgb(235, 23, 0);
     color: white;
-    width: 35%;
+    width: 38%;
     height: 2.5rem;
     border-radius: 2em;
     font-weight: bold;
@@ -405,7 +406,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background-image: url(/assets/img/grocery_desktop.avif);
+    background-image: url(/fs25-landingpage1/assets/img/grocery_desktop.avif);
     color: white;
 }
 
