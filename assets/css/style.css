@@ -18,7 +18,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    background: #fff url(/fs25-landingpage1/assets/img/bg-image.png) no-repeat top center fixed;
+    background: #fff url(/assets/img/bg-image.png) no-repeat top center fixed;
     background-size: cover;
     flex-wrap: wrap;
 }
@@ -406,7 +406,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background-image: url(/fs25-landingpage1/assets/img/grocery_desktop.avif);
+    background-image: url(/assets/img/grocery_desktop.avif);
     color: white;
 }
 
