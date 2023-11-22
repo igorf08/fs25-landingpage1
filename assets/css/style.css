@@ -1,0 +1,505 @@
+/*Importação de links externos*/
+
+@import url('https://fonts.cdnfonts.com/css/tt-norms-pro');
+
+/*Reset CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'TT Norms Pro', sans-serif, Helvetica;
+}
+
+/*Estilização de navbar e centralização*/
+
+.header {
+    height: 99.5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: #fff url(/assets/img/bg-image.png) no-repeat top center fixed;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+
+.svg-itens {
+    width: 100%;
+    display: flex;
+    
+}
+
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.2em;
+    min-width: 50em;
+    height: 10%;
+    min-height: 6.2%;
+    max-height: 10%;
+    
+}
+
+
+.doordash-svg {
+    display: flex;
+    align-items: center;
+    margin-left: 0.2em;
+}
+
+.nav-buttons {
+    height: 60%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+    margin-right: 2.5em;
+    
+}
+
+.signinSignup-button {
+    font-family: "TT Norms Pro", sans-serif, Helvetica;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 2em;
+    border: none;
+    width: 5em;
+    height: 2.2em;
+    cursor: pointer;
+}
+
+.nav-buttons .red { 
+    width: 4.5em;
+    background-color: rgb(235, 23, 0);
+    color: white;
+    transition: 0.5s all;
+}
+.nav-buttons .red:hover {
+    background-color: rgb(201, 26, 7);
+}
+
+.nav-buttons .white {
+    color: rgb(73, 73, 73);
+    background-color: #ffffff;
+}
+
+
+.name {
+    margin-right: 0.75em;
+}
+
+.section-container {
+    margin-top: 10em;
+    flex-wrap: wrap;
+}
+
+.section-container-itens {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 100vw;
+    height: 50vh
+}
+
+.textoProcura {
+    font-family: "TT Norms Pro";
+    font-size: 1.6em;
+    color: white;
+}
+
+.inputForm {
+    height: 3em;
+    width: 28em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2.9em;
+}
+
+.inputFormText {
+    width: 30em;
+    border-radius: 2em;
+    height: 4em;
+    padding: 0 3em;
+    border: none;
+}
+
+
+.inputFormText::placeholder {
+    font-family: "TT Norms Pro";
+    font-weight: 500;
+    font-size: 1.15em;
+}
+.inputFormText:active {
+    outline: 2px solid #309CDD;
+}
+
+
+.inputFormText {
+    color: black;
+    font-family: "TT Norms Pro";
+}
+
+.svgUser{
+    position: relative;
+    top: 5%;
+    right: 85%
+}
+
+
+ 
+.svgSubmit button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    right: 5em;
+    color: white;
+    background-color: red;
+    border-radius: 3em;
+    border: none;
+    width: 36px;
+    height: 36px;
+}
+
+
+
+.signAddress{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.4em;
+    align-items: center;
+    border: none;
+    box-shadow: transparent 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.2) 0px 2px 8px;
+    border-radius: 5em;
+    width: 15%;
+    height: 10%;
+    background-color: white;;
+    font-size: 0.9em;
+    font-family: "TT Norms Pro";
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.svgChar {
+    position: relative;
+    bottom: 15.5%;
+    right: 6.4%;
+}
+
+/*Estilização e padronização de informações sobre entrega e detalhes (main)*/
+
+.main-container {
+    padding: 0 10%;
+    width: 98.7vw;
+    height: 80vh;
+    margin-bottom: 5em;
+}
+
+.main-itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 100%;
+    font-family: 'TT Norms Pro';
+}
+
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.9em;
+    width: 17em;
+    height: 25em;
+}
+
+.card1 > h3 {
+    font-size: 2.1em;
+}
+
+.card1 > p {
+    font-size: 110%;
+    text-align: center;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 16.5em;
+    height: 25em;
+    gap: 0.5em;
+}
+
+.card2 h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.card2 p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5em;
+    width: 16.5em;
+    height: 25em;
+}
+
+.card3 > h3 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.card3 >p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.cardAnchor {
+    display: flex;
+    align-items: center;
+    gap: 0 0.5em;
+}
+
+.cardAnchor > a {
+    color: rgb(235, 23, 0);
+    font-weight: 600;
+    font-size: 1.1em;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Criação de seção de restaurantes locais*/
+
+.img-localRestaurants img {
+    object-fit: cover;
+    height: 80vh;
+    width: 50vw;
+    margin-right: 5em;
+}   
+
+.container-localRestaurants {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.localRestaurants-text {
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    gap:  1em;
+}
+
+.localRestaurants-text h4 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.localRestaurants-text h5 {
+    font-size: 1.5em;
+}
+
+.localRestaurants-text p {
+    text-align: left;
+    line-height: 1.2em;;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+
+.button-localRestaurants button{
+    border: none;
+    background-color: rgb(235, 23, 0);
+    color: white;
+    width: 38%;
+    height: 2.5rem;
+    border-radius: 2em;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0 0.5em;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.button-localRestaurants button:hover {
+    background-color: rgb(201, 26, 7);
+}
+
+/*Criação e estilização de section de delivery*/
+
+.container-dashDelivery {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(254, 241, 238);
+}
+
+.text-dashDelivery {
+    width: 30%;
+    display: flex;
+    gap: 1.8em;
+    flex-direction: column;
+}
+
+.text-dashDelivery p, h3 {
+    text-align: left;
+}
+
+.text-dashDelivery p {
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.text-dashDelivery h3 {
+    width: 80%;
+    font-size: 2.5em;
+}
+
+.dashDelivery-btn button {
+    border: none;
+    background-color: rgb(235, 23, 0);
+    color: white;
+    width: 35%;
+    height: 2.5rem;
+    border-radius: 2em;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0 0.5em;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.dashDelivery-btn button:hover {
+    background-color: rgb(201, 26, 7);
+}
+
+/*Criação de section groceries*/
+
+.groceries-container {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url(/assets/img/grocery_desktop.avif);
+    color: white;
+}
+
+
+.groceries-text {
+    padding: 10% 0;
+    gap: 1em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.groceries-text h3 {
+    font-size: 2.5em;
+    text-align: center;
+    width: 50%;
+}
+
+.groceries-text h5 {
+    font-size: 1.5em;
+}
+
+.groceries-text p {
+    width: 65%;
+    margin-bottom: 1em;
+}
+
+.buttonGroceries {
+    border: none;
+    background-color: rgb(235, 23, 0);
+    color: white;
+    width: 18%;
+    height: 2.5rem;
+    border-radius: 2em;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0 0.5em;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+/*Criação e estilização de section Shop Now*/
+
+.container-shopNow {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 4em;
+}
+
+.img-shopNow img {
+    object-fit: contain;
+    width: 90%;
+    height: 100%;
+    padding-top: 3em;
+}
+
+.text-shopNow {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 1em;
+    width: 25em;
+}
+
+.text-shopNow p {
+    width: 25em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.text-shopNow h3 {
+    font-size: 2em;
+}
+
+.button-shopNow button {
+    border: none;
+    background-color: rgb(235, 23, 0);
+    color: white;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 2em;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0 0.5em;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.button-shopNow button:hover {
+    background-color: rgb(201, 26, 7);
+}
